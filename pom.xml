@@ -119,6 +119,7 @@
 									<goal>test</goal>
 								</goals>
 								<configuration>
+									<useSystemClassLoader>false</useSystemClassLoader>
 									<includes>
 										<include>**/*IntegrationTests.java</include>
 									</includes>
@@ -137,6 +138,7 @@
 									<goal>test</goal>
 								</goals>
 								<configuration>
+									<useSystemClassLoader>false</useSystemClassLoader>
 									<includes>
 										<include>**/*IntegrationTests.java</include>
 									</includes>
@@ -155,6 +157,7 @@
 									<goal>test</goal>
 								</goals>
 								<configuration>
+									<useSystemClassLoader>false</useSystemClassLoader>
 									<includes>
 										<include>**/*IntegrationTests.java</include>
 									</includes>
@@ -236,6 +239,7 @@
 					<execution>
 						<id>default-test</id>
 						<configuration>
+							<useSystemClassLoader>false</useSystemClassLoader>
 							<includes>
 								<include>**/*Tests.java</include>
 							</includes>
